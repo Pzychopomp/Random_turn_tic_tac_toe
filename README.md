@@ -27,4 +27,4 @@ and the a.i will take the turn instead.
 
 ## Notes
 
--W.I.P
+- W.I.P
