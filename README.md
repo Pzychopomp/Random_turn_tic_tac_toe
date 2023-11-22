@@ -2,9 +2,9 @@
 
 ## Collaborators
 
-David Nguyen - https://github.com/Pzychopomp
-Brandon Mejia - https://github.com/Branmejia
-Derek Le -
+David Nguyen - https://github.com/Pzychopomp  
+Brandon Mejia - https://github.com/Branmejia  
+Derek Le -  
 
 ## Overview
 
