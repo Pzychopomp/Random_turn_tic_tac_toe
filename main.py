@@ -113,6 +113,9 @@ def main():
             else:
                 print('Whomp whomp, you lost to the A.I')
                 break
+            if check_win(board, 'X'):
+                print('YAY! You Won! Good Job!')
+                break
         else:
             if not(check_win(board, 'X')):
                 move = ai_move()
@@ -122,6 +125,9 @@ def main():
                     insert_letter('O', move)
                     print('Comp placed O at', move, ':')
                     drawboard(board)
+                if check_win(board, 'O'):
+                    print('Whomp whomp, you lost to the A.I')
+                    break
             else:
                 print('YAY! You Won! Good Job!')
                 break
