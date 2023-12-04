@@ -4,7 +4,7 @@
 
 David Nguyen - https://github.com/Pzychopomp  
 Brandon Mejia - https://github.com/Branmejia  
-Derek Le -  
+Derek Le -  https://github.com/elkered
 
 ## Overview
 
