@@ -90,6 +90,9 @@ def select_random(list):
     r = random.randrange(0,ln)
     return list[r]
 
+def flip_coin():
+    return random.choice(['X', 'O'])
+
 def boardfull(board):
     if board.count(' ') > 1:
         return False
@@ -100,25 +103,28 @@ def main():
     drawboard(board)
 
     while not(boardfull(board)):
-        # A.i Wins
-        if not(check_win(board, 'O')):
-            player_move()
-            drawboard(board)
-        else:
-            print('Whomp whomp, you lost to the A.I')
-            break
-
-        if not(check_win(board, 'X')):
-            move = ai_move()
-            if move == 0:
-                print('You tied with the A.I')
-            else:
-                insert_letter('O', move)
-                print('Comp placed O at', move, ':')
+        current_player = flip_coin()
+        print(f"{current_player} goes next!")
+        if current_player == 'X':
+            # A.i Wins
+            if not(check_win(board, 'O')):
+                player_move()
                 drawboard(board)
+            else:
+                print('Whomp whomp, you lost to the A.I')
+                break
         else:
-            print('YAY! You Won! Good Job!')
-            break
+            if not(check_win(board, 'X')):
+                move = ai_move()
+                if move == 0:
+                    print('You tied with the A.I')
+                else:
+                    insert_letter('O', move)
+                    print('Comp placed O at', move, ':')
+                    drawboard(board)
+            else:
+                print('YAY! You Won! Good Job!')
+                break
 
     if boardfull(board):
         print('You tied with the A.I')
