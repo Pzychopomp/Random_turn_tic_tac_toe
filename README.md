@@ -18,8 +18,8 @@ and the a.i will take the turn instead.
 
 1. **main.py**
    - Contains code to run the game as well as the logic.
-2. **helperfunc.py**
-   - Contains helper functions to assist in running code.
+   - A.I that competes with the player
+   - Coinflip function that flips a coin before every turn
 
 ## Running files
 
