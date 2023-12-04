@@ -23,7 +23,10 @@ and the a.i will take the turn instead.
 
 ## Running files
 
-1. W.I.P
+1. Download the files
+2. Extract the files from the zip
+3. Run the batch file
+4. Play the game
 
 ## Notes
 
