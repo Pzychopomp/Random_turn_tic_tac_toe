@@ -1,3 +1,4 @@
+
 # Random Turn Tic-Tac-Toe
 
 ## Collaborators
@@ -23,11 +24,15 @@ and the a.i will take the turn instead.
 
 ## Running files
 
+### For Windows Users
 1. Download the files
 2. Extract the files from the zip
-3. Run the batch file
+3. Run the batch(.bat) file
 4. Play the game
 
+### For Mac Users
+1. If you are running on mac os, open the terminal and type ```chmod +x ./run_game.sh ```
+2. Then ```./run-game.sh```
 ## Notes
 
-- W.I.P
+- If you are running into permission issues on mac, try ```sudo chmod +x``` 
