@@ -31,7 +31,7 @@ and the a.i will take the turn instead.
 4. Play the game
 
 ### For Mac Users
-1. If you are running on mac os, open the terminal and type ```chmod +x ./run_game.sh ```
+1. If you are running on mac os, open the terminal and type ```chmod +x ./run-game.sh ```
 2. Then ```./run-game.sh```
 ## Notes
 
